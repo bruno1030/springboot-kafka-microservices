@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7722a182-73a5-4dd3-9382-5c13f40d47ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/net/javaguides/stockservice/kafka/OrderConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/net/javaguides/emailservice/kafka/OrderConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/email-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/email-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/net/javaguides/stockservice/kafka/OrderConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/src/main/java/net/javaguides/stockservice/kafka/OrderConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,25 @@
     <property name="project.structure.side.proportion" value="0.31839082" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.OrderServiceApplication">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.javaguides.emailservice.kafka" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EmailServiceApplication">
+    <configuration name="EmailServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.emailservice.EmailServiceApplication" />
+      <module name="email-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.emailservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -83,11 +102,13 @@
     <list>
       <item itemvalue="Application.OrderServiceApplication" />
       <item itemvalue="Application.StockServiceApplication" />
+      <item itemvalue="Application.EmailServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.EmailServiceApplication" />
         <item itemvalue="Application.StockServiceApplication" />
+        <item itemvalue="Application.OrderServiceApplication" />
       </list>
     </recent_temporary>
   </component>
